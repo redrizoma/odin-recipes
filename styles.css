@@ -7,16 +7,19 @@
 body {
     font-family: Lato, Roboto, sans-serif;
     font-size: 16px;
+    background-color: f5f8fa;
 }
 
 header {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+    background-color: #133462;
 }
 
 header h2 {
     font-size: 1.5rem;
+    color: #fff;
 }
 
 .navbar {
@@ -33,18 +36,7 @@ header h2 {
 .navbar a {
     text-decoration: none;
     margin-right: 1rem;
-}
-
-.navbar a:hover {
-    color: #007bff;
-}
-
-.navbar a.active {
-    color: #007bff;
-}
-
-.navbar a.active:hover {
-    color: #007bff;
+    color: #fff;
 }
 
 .main-container {
@@ -53,6 +45,7 @@ header h2 {
     align-items: center;
     justify-content: space-around;
     padding: 6rem;
+    background-color: #133462;
 }
 
 .main-content {
@@ -62,10 +55,11 @@ header h2 {
     justify-content: space-evenly;
     margin: 4rem;
     padding: 2rem;
+    color: #fff;
 }
 
 .main-container h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0.5rem;
 }
 
@@ -75,12 +69,16 @@ header h2 {
     margin-bottom: 1rem;
 }
 
+.sea-landscape {
+    width: 500px;
+}
+
 .main-container .btn {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: #1e5098;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
@@ -101,7 +99,129 @@ header h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 4rem;
+    margin: 1rem;
     padding: 2rem;
-    border: 1px solid red;
+}
+
+.recipes-title h3 {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.recipes-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 3rem;
+}
+
+.recipes-options img {
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.recipes-options a {
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #1e5098;
+}
+
+.recipes-options a:hover {
+    color: #0056b3;
+}
+
+.salmon-ceviche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+}
+
+.white-ceviche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+}
+
+.shellfish-ceviche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quote {
+    padding: 8rem 12rem 8rem 12rem;
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #000;
+}
+
+.author {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: right;
+    margin-left: 4rem;
+}
+
+.information {
+    padding: 8rem;
+}
+
+.paragraph {
+    display: flex;
+    flex: rox;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+    background-color: #1e5098;
+    border-radius: 10px;
+}
+
+.question {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.phrase {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.signup .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    background-color: #1e5098;
+    border: 1px solid #fff;
+}
+
+footer {
+    background-color: #0c203c;
+    color: #fff;
+    font: 1.2rem;
+    text-align: center;
+    padding: 1rem 0;
 }
