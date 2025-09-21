@@ -85,6 +85,12 @@ header h2 {
     width: 150px;
 }
 
+.main-content a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #fff;
+}
+
 .main-container .btn:hover {
     background-color: #0056b3;
 }
