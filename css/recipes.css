@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, Roboto, sans-serif;
+    font-size: 16px;
+    background-color: f5f8fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #133462;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #fff;
+}
